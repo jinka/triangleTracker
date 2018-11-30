@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Can Validate Input</h2>
+
+<p>Please input a number between 1 and 100:</p>
+
+<input id="side1">
+<input id="side2">
+<input id="side3">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo">Side 1</p>
+<p id="demo1">Side 2</p>
+<p id="demo2">Side 3</p>
+
+<script>
+function myFunction() {
+    var x, text;
+    x = document.getElementById("side1").value;
+    if (isNaN(x) || x < 1 || x > 100) {
+        text = "Side 1 Input not valid";
+    } else {
+        text = "Side 1 Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+
+    y = document.getElementById("side2").value;
+    if (isNaN(y) || y < 1 || y > 100) {
+        text = "Side 2 Input not valid";
+    } else {
+        text = "Side 2 Input OK";
+    }
+    document.getElementById("demo1").innerHTML = text;
+
+    z = document.getElementById("side3").value;
+    if (isNaN(z) || z < 1 || z > 100) {
+        text = "Side 3 Input not valid";
+    } else {
+        text = "Side 3 Input OK";
+    }
+    document.getElementById("demo2").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
