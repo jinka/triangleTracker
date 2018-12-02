@@ -6,15 +6,11 @@
     width: 100px;
     height: 50px;
   }
+  input {
+    width: 150px;
+  }
+/* Triangle Tracker styles Start  */
 
- /* Trainagle Tracker styles End  */
-button {
-  width: 100px;
-  height: 50px;
-}
-input {
-  width: 150px;
-}
 input:invalid {
   border: 2px dashed red;
 }
