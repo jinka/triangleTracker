@@ -16,4 +16,24 @@ function triangleTracker() {
       isSide1=true;
   }
 
+  var sideLength2 = document.getElementById("id2").value;
+  var side2Obj = document.getElementById("id2");
+  if (!side2Obj.checkValidity()) {
+      document.getElementById("triangleTriangleSide2").innerHTML = side2Obj.validationMessage;
+      isSide2=true;
+  } else {
+    document.getElementById("triangleTriangleSide2").innerHTML = "side2Obj Input OK";
+    isSide2=false;
+  }
+
+  var sideLength3 = document.getElementById("id3").value;
+  var side3Obj = document.getElementById("id3");
+  if (!side3Obj.checkValidity()) {
+      document.getElementById("triangleTriangleSide3").innerHTML = side3Obj.validationMessage;
+      isSide3=true;
+  } else {
+    document.getElementById("triangleTriangleSide3").innerHTML = "side3Obj Input OK";
+    isSide3=false;
+  }
+
 }
