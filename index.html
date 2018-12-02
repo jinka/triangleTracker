@@ -18,7 +18,7 @@
 		<label for="">Enter Side 3 Length:</label>
 		<input id="id3" type="number" min="1" max="300" value="100" required>
 		<br>
-		<button onclick="myFunction()">OK</button>
+		<button onclick="triangleTracker()">OK</button>
 
 </fieldset>
 
@@ -34,8 +34,7 @@ var isSide1 = false;
 var isSide2 = false;
 var isSide3 = false;
 
-alert(triangleTypes[0]);
-function myFunction() {
+function triangleTracker() {
 		var triangleTypes = ['Equilateral','isosceles','Scalene','Not Triangle'];
 		var sideLength1 = document.getElementById("id1").value;
 		var side1Obj = document.getElementById("id1");
