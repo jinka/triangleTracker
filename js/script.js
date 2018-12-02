@@ -41,6 +41,10 @@ function triangleTracker() {
     sideLength2 = parseInt(sideLength2);
     sideLength3 = parseInt(sideLength3);
 
+    var sideOneTwo = sideLength1 + sideLength2;
+    var sideOneThree = sideLength1 + sideLength3;
+    var sideTwoThree = sideLength2 + sideLength3;
+
   }
 
 }
