@@ -7,4 +7,13 @@ function triangleTracker() {
 
   var sideLength1 = document.getElementById("id1").value;
   var side1Obj = document.getElementById("id1");
+
+  if (!side1Obj.checkValidity()) {
+      // document.getElementById("triangleTriangleSide1").innerHTML = side1Obj.validationMessage;
+      isSide1=false;
+  } else {
+      // document.getElementById("triangleTriangleSide1").innerHTML = "side1Obj Input OK";
+      isSide1=true;
+  }
+
 }
