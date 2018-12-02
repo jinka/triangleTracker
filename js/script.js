@@ -37,7 +37,10 @@ function triangleTracker() {
     isSide3=false;
   }
   if (isSide1 && isSide2 && isSide3) {
-    
+    sideLength1 = parseInt(sideLength1);
+    sideLength2 = parseInt(sideLength2);
+    sideLength3 = parseInt(sideLength3);
+
   }
 
 }
