@@ -2,6 +2,11 @@
   .ttcontainer h2{
 
   }
+  button {
+    width: 100px;
+    height: 50px;
+  }
+
  /* Trainagle Tracker styles End  */
 button {
   width: 100px;
