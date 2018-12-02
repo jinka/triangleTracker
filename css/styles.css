@@ -1,0 +1,54 @@
+button {
+  width: 100px;
+  height: 50px;
+}
+input {
+  width: 150px;
+}
+input:invalid {
+  border: 2px dashed red;
+}
+label {
+  width: 100px;
+  font-size: 20px;
+}
+img {
+  float: right;
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+fieldset {
+  font-size:12px;
+  padding:10px;
+  width:550px;
+  line-height:1.8;}
+
+input:valid {
+  border: 2px solid black;
+}
+/*
+.main-wrapper-first {
+  width: 68.75%;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+
+@media (min-width: 1200px) {
+  .main-wrapper-first {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-wrapper-first {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-wrapper-first {
+    margin-top: 3rem;
+    width: 97%;
+  }
+} */
