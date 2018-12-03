@@ -37,7 +37,7 @@ section, aside {
     width: 46%;
     padding: 1%;
     margin: 1%;
-    backgroun #f2f2f2;
+    backgroun:l #f2f2f2;
 }
 .columns:after{
     display: block;
