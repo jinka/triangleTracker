@@ -3,7 +3,7 @@ function triangleTracker() {
   var isSide2 = false;
   var isSide3 = false;
 
-  var triangleTypes = ['Equilateral','isosceles','Scalene','Not Triangle'];
+  var triangleTypes = ['Equilateral','isosceles','Scalene','Not a Triangle'];
 
   var sideLength1 = document.getElementById("id1").value;
   var side1Obj = document.getElementById("id1");
@@ -53,6 +53,6 @@ function triangleTracker() {
         }
     }
   }
-  document.getElementById("triangleTriangleSide2").innerHTML = isTriangle(sideLength1,sideLength2,sideLength3);
+  document.getElementById("triangleTriangleSide2").innerHTML = "Triangle is : " + isTriangle(sideLength1,sideLength2,sideLength3);
 }
 }

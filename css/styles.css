@@ -63,16 +63,21 @@ section, aside {
     text-align: center;
     color: #fff;
 }
-
-/*  index.html styles End */
-fieldset{
+footer {
+  background-color: #ffcccc;
+  width: 100%;
+  text-align: center;
 }
+/*  index.html styles End */
+
+/* =================================================*/
 
  /* Triangle Tracker styles Start  */
-
-  .ttcontainer h2{
-
-  }
+.triangleTriangleSide2{
+  float: right;
+  font-size: 100%;
+  font-style: oblique;
+}
   button {
     width: 100px;
     height: 50px;
@@ -91,43 +96,10 @@ fieldset{
     font-size: 20px;
   }
   fieldset {
-    font-size:12px;
+    font-size:22px;
     padding:10px;
     width:550px;
     line-height:1.8;
   }
 
-/* Triangle Tracker styles Start  */
-
-/* img {
-  float: right;
-  margin-top: 10px;
-  width: 150px;
-  height: 150px;
-} */
-
-/*
-.main-wrapper-first {
-  width: 68.75%;
-  margin: 0 auto;
-  margin-top: 6rem;
-}
-
-@media (min-width: 1200px) {
-  .main-wrapper-first {
-    width: 75%;
-  }
-}
-
-@media (max-width: 1199px) {
-  .main-wrapper-first {
-    width: 90%;
-  }
-}
-
-@media (max-width: 767px) {
-  .main-wrapper-first {
-    margin-top: 3rem;
-    width: 97%;
-  }
-} */
+/* Triangle Tracker styles Finish  */
