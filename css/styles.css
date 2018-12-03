@@ -1,15 +1,14 @@
-/* index.html styles Start */
-.project:after {
+.service:after{
     content: "";
     display: block;
     clear: both;
 }
-.project h2, .project p {
+.service h2, .service p{
     color: #999;
     margin: 10px 0;
     text-align: center;
 }
-.project {
+.service{
     float: left;
     background: #eee;
     width: 29.33%;
@@ -18,24 +17,55 @@
     height: 140px;
     position: relative;
 }
-.project:nth-child(1) {
+.service:nth-child(1){
     top: 15px;
 }
-.project:nth-child(2) {
-    top: 15px;
+.service:nth-child(2){
+    top: 20px;
 }
-.project:nth-child(3) {
+.service:nth-child(3){
     top: 15px;
 }
 
 .content{
     padding: 10px;
     background: #ccc;
-    margin-top: 15px;
+    margin-top: 5px;
+}
+section, aside {
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+}
+.columns:after{
+    display: block;
+    content: "";
+    clear: both;
+}banner{
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1%;
+}
+#banner{
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1%;
+    position: relative;
+}
+#banner h2{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
 }
 
-
 /*  index.html styles End */
+fieldset{
+}
 
  /* Triangle Tracker styles Start  */
 
@@ -68,12 +98,12 @@
 
 /* Triangle Tracker styles Start  */
 
-img {
+/* img {
   float: right;
   margin-top: 10px;
   width: 150px;
   height: 150px;
-}
+} */
 
 /*
 .main-wrapper-first {

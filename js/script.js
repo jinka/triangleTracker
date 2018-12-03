@@ -39,6 +39,7 @@ function triangleTracker() {
     var sideOneTwo = sideLength1 + sideLength2;
     var sideOneThree = sideLength1 + sideLength3;
     var sideTwoThree = sideLength2 + sideLength3;
+
     function isTriangle(side1,side2,side3) {
       if (sideOneTwo <= side3 || sideOneThree <= side2 || sideTwoThree <= side1) {
         return triangleTypes[3];
