@@ -1,15 +1,15 @@
 /* index.html styles Start */
-.project:after{
+.project:after {
     content: "";
     display: block;
     clear: both;
 }
-.project h2, .project p{
+.project h2, .project p {
     color: #999;
     margin: 10px 0;
     text-align: center;
 }
-.project{
+.project {
     float: left;
     background: #eee;
     width: 29.33%;
@@ -18,16 +18,21 @@
     height: 140px;
     position: relative;
 }
-.project:nth-child(1){
+.project:nth-child(1) {
     top: 15px;
 }
-.project:nth-child(2){
+.project:nth-child(2) {
     top: 15px;
 }
-.project:nth-child(3){
+.project:nth-child(3) {
     top: 15px;
 }
 
+.content{
+    padding: 10px;
+    background: #ccc;
+    margin-top: 15px;
+}
 
 
 /*  index.html styles End */
