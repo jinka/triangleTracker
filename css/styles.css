@@ -1,3 +1,37 @@
+/* index.html styles Start */
+.project:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.project h2, .project p{
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
+}
+.project{
+    float: left;
+    background: #eee;
+    width: 29.33%;
+    padding: 1%;
+    margin: 1%;
+    height: 140px;
+    position: relative;
+}
+.project:nth-child(1){
+    top: 15px;
+}
+.project:nth-child(2){
+    top: 15px;
+}
+.project:nth-child(3){
+    top: 15px;
+}
+
+
+
+/*  index.html styles End */
+
  /* Triangle Tracker styles Start  */
 
   .ttcontainer h2{
