@@ -4,6 +4,11 @@
   clear: both;
 }
 
+span {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .service h2, .service p {
   color: #999;
   margin: 10px 0;
@@ -83,6 +88,18 @@ footer {
 /*  index.html styles End */
 /* =================================================*/
 /* Triangle Tracker styles Start  */
+body {
+  background: #555;
+  background-image: url("../images/daud1.jpeg");
+}
+
+.ttcontainer {
+  max-width: 600px;
+  margin: 200px;
+  background: white;
+  padding: 10px;
+}
+
 .triangleTriangleSide2 {
   float: right;
   font-size: 100%;
@@ -116,6 +133,7 @@ fieldset {
   padding: 10px;
   width: 550px;
   line-height: 1.8;
+  background-repeat: no-repeat;
 }
 
 /* Triangle Tracker styles Finish  */
